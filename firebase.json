@@ -1,0 +1,11 @@
+{
+  "rulesFile": "database.rules.json",
+  "hosting": {
+    "public": "dist/BlogBook",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
