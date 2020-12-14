@@ -6,14 +6,14 @@ export const environment = {
   production: false,
   
   firebaseConfig :{
-    apiKey: "AIzaSyAfuiRHvucnodn6W-xa7ttRSanFsrq0YKI",
-    authDomain: "vuegram-2b5a0.firebaseapp.com",
-    databaseURL: "https://vuegram-2b5a0-default-rtdb.firebaseio.com",
-    projectId: "vuegram-2b5a0",
-    storageBucket: "vuegram-2b5a0.appspot.com",
-    messagingSenderId: "344946394525",
-    appId: "1:344946394525:web:54505d353090a15a781b74",
-    measurementId: "G-CHJ72HC7X6"
+    apiKey: "AIzaSyDBluJb_0Y3789S1e6014SoYLrWxeR_GQo",
+    authDomain: "daftar-diaries-d9422.firebaseapp.com",
+    databaseURL: "https://daftar-diaries-d9422-default-rtdb.firebaseio.com",
+    projectId: "daftar-diaries-d9422",
+    storageBucket: "daftar-diaries-d9422.appspot.com",
+    messagingSenderId: "857065859327",
+    appId: "1:857065859327:web:b57835781bab3caae304ca",
+    measurementId: "G-FHNE483PQ3"
 
 }
 }
