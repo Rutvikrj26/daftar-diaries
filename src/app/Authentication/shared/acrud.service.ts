@@ -127,7 +127,7 @@ export class ACrudService {
 
 
       this.http.post(
-        `https://daftar-diaries-d9422-default-rtdb.firebaseio.com//post/${this.uid}/profile.json`,
+        `https://daftar-diaries-d9422-default-rtdb.firebaseio.com/post/${this.uid}/profile.json`,
         this.ProfieData
       )
 
@@ -144,7 +144,7 @@ export class ACrudService {
   createPublicProfile(postdata: any, uname) {
 
     this.http.post(
-      `https://daftar-diaries-d9422-default-rtdb.firebaseio.com//PublicProfile/${uname}.json`,
+      `https://daftar-diaries-d9422-default-rtdb.firebaseio.com/PublicProfile/${uname}.json`,
       postdata
     )
 
