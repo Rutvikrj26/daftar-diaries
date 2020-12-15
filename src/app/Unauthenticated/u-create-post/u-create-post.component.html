@@ -1,8 +1,5 @@
 <div class="container">
 
-
-
-
     <div class="col-md-10 col-sm-12 col-xs-12 center-block">
 
         <div class="alert alert-danger" *ngIf="error">
@@ -43,16 +40,14 @@
                     </ng-container>
                 </div>
 
-
                 <div class="form-group">
-                    <label for="comment">Description:</label>
-                    <textarea class="form-control" rows="5" id="comment" formControlName="desc"></textarea>
+                    <label for="comment">Description (Height is auto-Adjusted):</label>
+                    <quill-editor ><textarea class="form-control" rows="5" id="comment" formControlName="desc" style="height: auto;"></textarea></quill-editor>
                     <ng-container *ngFor="let validation of validation_messages.desc">
                         <div class="help-block has-error" *ngIf="exampleForm.get( 'desc').hasError(validation.type) && (exampleForm.get( 'desc').dirty || exampleForm.get( 'desc').touched)">
                             {{validation.message}}</div>
                         <div class="help-block has-error" *ngIf="exampleForm.get( 'desc').hasError( 'minlength') && ( exampleForm.get( 'desc').touched)">
                             Minimun 50 characters required in description</div>
-
                     </ng-container>
                 </div>
 

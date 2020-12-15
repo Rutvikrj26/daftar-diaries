@@ -21,8 +21,8 @@ export class UCreatePostComponent implements OnInit {
   isprofileset
   isimgloading: boolean
   exampleForm: FormGroup;
-  values = ['Happy', 'Sad', 'Success', 'Failure', 'Hurt', 'Study', 'Educational', 'Portfolio', 'Other'];
-  selected = 'Happy'
+  values = ['Core Industry', 'Consulting', 'Analytics', 'Education', 'Academia', 'Other'];
+  selected = 'Core Industry'
   imageSrc: string | ArrayBuffer;
   downloadURL: string;
   selectedFile: any;
