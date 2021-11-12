@@ -1,6 +1,6 @@
-# BlogBook
+## Made this as a project for learning and experimenting with Firebase Database alongside Angular JS
 
- [Live Demo](https://mehulk05.github.io/Blog-Book).
+ [Live Demo](https://daftar-diaries.tk).
 
 ## What Are Various Features
 - CRUD Operations
@@ -13,8 +13,6 @@
 - Search Filter
 - Featured Post and Latest Post
 - Rich Text Editor Like Medium(WYSIWYG)
-
-# What It Covers
 
 ## This project covers all fundamentals of Angular
 
@@ -29,5 +27,3 @@
 - Pipes
 - CRUD operations
 - Guards etc.
-
-# Live Demo :https://mehulk05.github.io/Blog-Book
