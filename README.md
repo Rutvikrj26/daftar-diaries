@@ -13,3 +13,5 @@
 - Search Filter
 - Featured Post and Latest Post
 - Rich Text Editor Like Medium(WYSIWYG)
+
+One Time Project, no more maintained
